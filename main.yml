@@ -1,0 +1,9 @@
+---
+- name: "Customizing Kali"
+  hosts: localhost
+  connection: local
+  roles:
+    - role: "roles/configure-tmux"
+    - role: "roles/costumize-terminal"
+    - role: "roles/install-tools"
+  
